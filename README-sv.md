@@ -48,11 +48,11 @@ Lägga till ikon med HTML, dubbel storlek:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`FontawesomeToolbarButtons` = verktygsfältknappar för [edit-tilläget](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit/README-sv.md)  
+`FontawesomeToolbarButtons` = verktygsfältknappar för [edit-tilläget](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
 ## Installation
 
-[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/fontawesome.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
+[Ladda ner tillägg](https://github.com/annaesvensson/yellow-fontawesome/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
 Detta tilläg använder [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy.
 

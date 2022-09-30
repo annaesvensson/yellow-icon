@@ -48,11 +48,11 @@ Adding an icon with HTML, double size:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`FontawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/edit)  
+`FontawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/annaesvensson/yellow-edit)  
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/fontawesome.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/annaesvensson/yellow-fontawesome/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 This extension uses [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy.
 

@@ -1,5 +1,5 @@
 <?php
-// Fontawesome extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/fontawesome
+// Fontawesome extension, https://github.com/annaesvensson/yellow-fontawesome
 
 class YellowFontawesome {
     const VERSION = "0.8.13";
