@@ -58,4 +58,4 @@ Diese Erweiterung benutzt [Font Awesome 4.7.0](https://github.com/FortAwesome/Fo
 
 ## Entwickler
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

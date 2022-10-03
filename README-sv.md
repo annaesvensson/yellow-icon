@@ -58,4 +58,4 @@ Detta tilläg använder [Font Awesome 4.7.0](https://github.com/FortAwesome/Font
 
 ## Utvecklare
 
-Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

@@ -58,4 +58,4 @@ This extension uses [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awe
 
 ## Developer
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).
