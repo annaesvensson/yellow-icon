@@ -4,7 +4,7 @@
 
 Ikoner och symboler.
 
-![Skärmdump](fontawesome-screenshot.jpg?raw=true)
+![Skärmdump](fontawesome-screenshot.png?raw=true)
 
 ## Hur man lägger till en ikon
 
