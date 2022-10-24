@@ -54,7 +54,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 [Ladda ner tillägg](https://github.com/annaesvensson/yellow-fontawesome/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-Detta tilläg använder [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy.
+Detta tilläg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy.
 
 ## Utvecklare
 
