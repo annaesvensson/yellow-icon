@@ -1,14 +1,14 @@
 <?php
-// Fontawesome extension, https://github.com/annaesvensson/yellow-fontawesome
+// Icon extension, https://github.com/annaesvensson/yellow-icon
 
-class YellowFontawesome {
+class YellowIcon {
     const VERSION = "0.8.13";
     public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("fontawesomeToolbarButtons", ":fa-star: :fa-heart: :fa-exclamation-triangle: :fa-tag: :fa-comment: :fa-file-o: :fa-file-text-o: :fa-file-picture-o: :fa-envelope-o: :fa-phone: :fa-twitter: :fa-github: :fa-calendar: :fa-clock-o: :fa-map-marker: :fa-check:");
+        $this->yellow->system->setDefault("iconToolbarButtons", ":fa-star: :fa-heart: :fa-exclamation-triangle: :fa-tag: :fa-comment: :fa-file-o: :fa-file-text-o: :fa-file-picture-o: :fa-envelope-o: :fa-phone: :fa-twitter: :fa-github: :fa-calendar: :fa-clock-o: :fa-map-marker: :fa-check:");
     }
 
     // Handle page content of shortcut
@@ -32,7 +32,7 @@ class YellowFontawesome {
         $output = null;
         if ($name=="header") {
             $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}fontawesome.css\" />\n";
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}icon.css\" />\n";
         }
         return $output;
     }

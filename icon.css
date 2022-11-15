@@ -1,11 +1,11 @@
-/* Fontawesome extension, https://github.com/annaesvensson/yellow-fontawesome */
+/* Icon extension, https://github.com/annaesvensson/yellow-icon */
 
 @font-face {
     font-family: "FontAwesome";
     font-style: normal;
     font-weight: normal;
     font-display: block;
-    src: url("fontawesome.woff");
+    src: url("icon.woff");
 }
 .fa {
     display: inline-block;
