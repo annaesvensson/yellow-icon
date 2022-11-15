@@ -1,10 +1,10 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Fontawesome 0.8.13
+# Icon 0.8.13
 
 Icons und Symbole.
 
-![Bildschirmfoto](fontawesome-screenshot.png?raw=true)
+![Bildschirmfoto](icon-screenshot.png?raw=true)
 
 ## Wie man ein Icon hinzufügt
 
@@ -48,11 +48,11 @@ Icon mit HTML hinzufügen, doppelte Größe:
 
 Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`FontawesomeToolbarButtons` = Symbolleistenschaltflächen für die [Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
+`IconToolbarButtons` = Symbolleistenschaltflächen für die [Edit-Erweiterung](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md)  
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-fontawesome/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-icon/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 Diese Erweiterung enthält [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) von Dave Gandy.
 

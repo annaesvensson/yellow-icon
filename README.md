@@ -1,10 +1,10 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Fontawesome 0.8.13
+# Icon 0.8.13
 
 Icons and symbols.
 
-![Screenshot](fontawesome-screenshot.png?raw=true)
+![Screenshot](icon-screenshot.png?raw=true)
 
 ## How to add an icon
 
@@ -48,11 +48,11 @@ Adding an icon with HTML, double size:
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
-`FontawesomeToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/annaesvensson/yellow-edit)  
+`IconToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/annaesvensson/yellow-edit)  
 
 ## Installation
 
-[Download extension](https://github.com/annaesvensson/yellow-fontawesome/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[Download extension](https://github.com/annaesvensson/yellow-icon/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 This extension includes [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy.
 
