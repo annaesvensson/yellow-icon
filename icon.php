@@ -2,22 +2,22 @@
 // Icon extension, https://github.com/annaesvensson/yellow-icon
 
 class YellowIcon {
-    const VERSION = "0.8.13";
+    const VERSION = "0.8.14";
     public $yellow;         // access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
-        $this->yellow->system->setDefault("iconToolbarButtons", ":fa-star: :fa-heart: :fa-exclamation-triangle: :fa-tag: :fa-comment: :fa-file-o: :fa-file-text-o: :fa-file-picture-o: :fa-envelope-o: :fa-phone: :fa-twitter: :fa-github: :fa-calendar: :fa-clock-o: :fa-map-marker: :fa-check:");
+        $this->yellow->system->setDefault("iconToolbarButtons", ":icon-star: :icon-heart: :icon-exclamation-triangle: :icon-tag: :icon-comment: :icon-file-o: :icon-file-text-o: :icon-file-image-o: :icon-phone: :icon-envelope-o: :icon-lightbulb-o: :icon-coffee: :icon-calendar: :icon-clock-o: :icon-map-marker: :icon-check:");
     }
 
     // Handle page content of shortcut
     public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if (($name=="fa" && $type=="inline") || $type=="symbol") {
+        if (($name=="icon" && $type=="inline") || $type=="symbol") {
             list($shortname, $style) = $this->yellow->toolbox->getTextArguments($text);
-            if (preg_match("/^fa-(.+)/", $shortname, $matches)) {
-                $class = trim("fa $shortname $style");
+            if (preg_match("/^icon-(.+)/", $shortname, $matches)) {
+                $class = trim("icon $shortname $style");
                 $label = $matches[1];
                 $output = "<i class=\"".htmlspecialchars($class)."\"";
                 $output .= " aria-label=\"".htmlspecialchars("$label")."\"";

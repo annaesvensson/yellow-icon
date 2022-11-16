@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Icon 0.8.13
+# Icon 0.8.14
 
 Ikoner och symboler.
 
@@ -10,39 +10,33 @@ Ikoner och symboler.
 
 Lägg till `:shortcode:` till texten på en sida. Här är en [fullständig lista med ikoner](https://fontawesome.com/icons).
 
-Det är också möjligt att skapa en `[fa]` förkortning eller använda HTML `<i class="fa fa-name" aria-label="name"></i>`. Du kan lägga till en extra stil till namnet, till exempel `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` och `fa-5x`.
+Det är också möjligt att skapa en `[icon]` förkortning eller använda HTML. Du kan valfritt lägga till en stil, till exempel `icon-2x`, `icon-3x`, `icon-4x` och `icon-5x`.
 
 ## Exempel
 
 Lägga till ikon:
 
-    :fa-envelope-o:
-    :fa-twitter:
-    :fa-github:
+    :icon-envelope-o:
+    :icon-github:
+    :icon-youtube:
 
-Lägga till ikon med förkortning, normal storlek:
+Lägga till ikon med förkortning, olika storlek:
 
-    [fa fa-envelope-o]
-    [fa fa-twitter]
-    [fa fa-github]
+    [icon icon-envelope-o]
+    [icon icon-github icon-2x]
+    [icon icon-youtube icon-3x]
     
-Lägga till ikon med förkortning, dubbel storlek:
+Lägga till ikon med HTML, olika storlek:
 
-    [fa fa-envelope-o fa-2x]
-    [fa fa-twitter fa-2x]
-    [fa fa-github fa-2x]
+    <i class="icon icon-envelope-o" aria-label="Email"></i>
+    <i class="icon icon-github icon-2x" aria-label="GitHub"></i>
+    <i class="icon icon-youtube icon-3x" aria-label="Youtube"></i>
 
-Lägga till ikon med HTML, normal storlek:
+Webbplatsikoner:
 
-    <i class="fa fa-envelope-o" aria-label="Email"></i>
-    <i class="fa fa-twitter" aria-label="Twitter"></i>
-    <i class="fa fa-github" aria-label="GitHub"></i>
-
-Lägga till ikon med HTML, dubbel storlek:
-
-    <i class="fa fa-envelope-o fa-2x" aria-label="Email"></i>
-    <i class="fa fa-twitter fa-2x" aria-label="Twitter"></i>
-    <i class="fa fa-github fa-2x" aria-label="GitHub"></i>
+    :icon-file-o:        :icon-file-text-o:   :icon-file-image-o:
+    :icon-file-audio-o:  :icon-comment-o:     :icon-cog:
+    :icon-shopping-cart: :icon-search:        :icon-bars:
 
 ## Inställningar
 

@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Icon 0.8.13
+# Icon 0.8.14
 
 Icons and symbols.
 
@@ -10,39 +10,33 @@ Icons and symbols.
 
 Add `:shortcode:` to the text of a page. Here's a [complete list of icons](https://fontawesome.com/icons).
 
-It's also possible to create a `[fa]` shortcut or use HTML `<i class="fa fa-name" aria-label="name"></i>`. You can add an additional style to the name, for example `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` and `fa-5x`.
+It's also possible to create a `[icon]` shortcut or use HTML. You can add an optional style, for example `icon-2x`, `icon-3x`, `icon-4x` and `icon-5x`.
 
 ## Examples
 
 Adding an icon:
 
-    :fa-envelope-o:
-    :fa-twitter:
-    :fa-github:
+    :icon-envelope-o:
+    :icon-github:
+    :icon-youtube:
 
-Adding an icon with shortcut, normal size:
+Adding an icon with shortcut, different sizes:
 
-    [fa fa-envelope-o]
-    [fa fa-twitter]
-    [fa fa-github]
+    [icon icon-envelope-o]
+    [icon icon-github icon-2x]
+    [icon icon-youtube icon-3x]
     
-Adding an icon with shortcut, double size:
+Adding an icon with HTML, different sizes:
 
-    [fa fa-envelope-o fa-2x]
-    [fa fa-twitter fa-2x]
-    [fa fa-github fa-2x]
+    <i class="icon icon-envelope-o" aria-label="Email"></i>
+    <i class="icon icon-github icon-2x" aria-label="GitHub"></i>
+    <i class="icon icon-youtube icon-3x" aria-label="Youtube"></i>
 
-Adding an icon with HTML, normal size:
+Website icons:
 
-    <i class="fa fa-envelope-o" aria-label="Email"></i>
-    <i class="fa fa-twitter" aria-label="Twitter"></i>
-    <i class="fa fa-github" aria-label="GitHub"></i>
-
-Adding an icon with HTML, double size:
-
-    <i class="fa fa-envelope-o fa-2x" aria-label="Email"></i>
-    <i class="fa fa-twitter fa-2x" aria-label="Twitter"></i>
-    <i class="fa fa-github fa-2x" aria-label="GitHub"></i>
+    :icon-file-o:        :icon-file-text-o:   :icon-file-image-o:
+    :icon-file-audio-o:  :icon-comment-o:     :icon-cog:
+    :icon-shopping-cart: :icon-search:        :icon-bars:
 
 ## Settings
 

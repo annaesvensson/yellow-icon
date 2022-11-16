@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Icon 0.8.13
+# Icon 0.8.14
 
 Icons und Symbole.
 
@@ -10,39 +10,33 @@ Icons und Symbole.
 
 Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist eine [komplette Liste mit Icons](https://fontawesome.com/icons).
 
-Es ist auch möglich eine `[fa]`-Abkürzung zu erstellen oder HTML `<i class="fa fa-name" aria-label="name"></i>` zu benutzen. Du kannst weitere Stile an den Namen anhängen, beispielsweise `fa-lg`, `fa-2x`, `fa-3x`, `fa-4x` und `fa-5x`.
+Es ist auch möglich eine `[icon]`-Abkürzung zu erstellen oder HTML zu benutzen. Du kannst wahlweise einen Stil angeben, beispielsweise `icon-2x`, `icon-3x`, `icon-4x` und `icon-5x`.
 
 ## Beispiele
 
 Icon hinzufügen:
 
-    :fa-envelope-o:
-    :fa-twitter:
-    :fa-github:
+    :icon-envelope-o:
+    :icon-github:
+    :icon-youtube:
 
-Icon mit Abkürzung hinzufügen, normale Größe:
+Icon mit Abkürzung hinzufügen, unterschiedliche Größen:
 
-    [fa fa-envelope-o]
-    [fa fa-twitter]
-    [fa fa-github]
+    [icon icon-envelope-o]
+    [icon icon-github icon-2x]
+    [icon icon-youtube icon-3x]
     
-Icon mit Abkürzung hinzufügen, doppelte Größe:
+Icon mit HTML hinzufügen, unterschiedliche Größen:
 
-    [fa fa-envelope-o fa-2x]
-    [fa fa-twitter fa-2x]
-    [fa fa-github fa-2x]
+    <i class="icon icon-envelope-o" aria-label="Email"></i>
+    <i class="icon icon-github icon-2x" aria-label="GitHub"></i>
+    <i class="icon icon-youtube icon-3x" aria-label="Youtube"></i>
 
-Icon mit HTML hinzufügen, normale Größe:
+Websiten-Icons:
 
-    <i class="fa fa-envelope-o" aria-label="E-Mail"></i>
-    <i class="fa fa-twitter" aria-label="Twitter"></i>
-    <i class="fa fa-github" aria-label="GitHub"></i>
-
-Icon mit HTML hinzufügen, doppelte Größe:
-
-    <i class="fa fa-envelope-o fa-2x" aria-label="E-Mail"></i>
-    <i class="fa fa-twitter fa-2x" aria-label="Twitter"></i>
-    <i class="fa fa-github fa-2x" aria-label="GitHub"></i>
+    :icon-file-o:        :icon-file-text-o:   :icon-file-image-o:
+    :icon-file-audio-o:  :icon-comment-o:     :icon-cog:
+    :icon-shopping-cart: :icon-search:        :icon-bars:
 
 ## Einstellungen
 
