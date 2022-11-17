@@ -46,7 +46,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 ## Acknowledgments
 
-This extension includes [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy. Thanks for the beautiful icons.
+This extension includes [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy. Thank you for the beautiful icons.
 
 ## Installation
 
