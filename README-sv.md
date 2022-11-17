@@ -44,11 +44,13 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `IconToolbarButtons` = verktygsfältknappar för [edit-tilläget](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
+## Tack
+
+Detta tilläg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy. Tack för de vackra ikonerna.
+
 ## Installation
 
 [Ladda ner tillägg](https://github.com/annaesvensson/yellow-icon/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
-
-Detta tilläg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy.
 
 ## Utvecklare
 
