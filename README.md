@@ -44,7 +44,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `IconToolbarButtons` = toolbar buttons for the [edit extension](https://github.com/annaesvensson/yellow-edit)  
 
-## Acknowledgments
+## Acknowledgements
 
 This extension includes [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy. Thank you for the beautiful icons.
 
