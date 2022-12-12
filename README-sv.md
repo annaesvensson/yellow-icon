@@ -6,6 +6,10 @@ Ikoner och symboler.
 
 ![Skärmdump](icon-screenshot.png?raw=true)
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-icon/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man lägger till en ikon
 
 Lägg till `:shortcode:` till texten på en sida. Här är en [fullständig lista med ikoner](https://fontawesome.com/icons).
@@ -47,10 +51,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 ## Tack
 
 Detta tilläg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy. Tack för de vackra ikonerna.
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-icon/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 

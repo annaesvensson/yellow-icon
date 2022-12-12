@@ -6,6 +6,10 @@ Icons and symbols.
 
 ![Screenshot](icon-screenshot.png?raw=true)
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-icon/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to add an icon
 
 Add `:shortcode:` to the text of a page. Here's a [complete list of icons](https://fontawesome.com/icons).
@@ -47,10 +51,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 ## Acknowledgements
 
 This extension includes [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy. Thank you for the beautiful icons.
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-icon/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 
