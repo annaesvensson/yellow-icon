@@ -50,7 +50,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 ## Tack
 
-Detta tilläg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy. Tack för de vackra ikonerna.
+Detta tillägg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy. Tack för de vackra ikonerna.
 
 ## Utvecklare
 
