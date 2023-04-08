@@ -46,7 +46,7 @@ Webbplatsikoner:
 
 Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`IconToolbarButtons` = verktygsfältknappar för [edit-tilläget](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
+`IconToolbarButtons` = verktygsfältknappar för [edit-tillägget](https://github.com/annaesvensson/yellow-edit/tree/main/README-sv.md)  
 
 ## Tack
 
