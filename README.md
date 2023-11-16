@@ -4,7 +4,7 @@
 
 Icons and symbols.
 
-![Screenshot](icon-screenshot.png?raw=true)
+![Screenshot](SCREENSHOT.png?raw=true)
 
 ## How to install an extension
 

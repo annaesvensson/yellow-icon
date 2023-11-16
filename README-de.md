@@ -4,7 +4,7 @@
 
 Icons und Symbole.
 
-![Bildschirmfoto](icon-screenshot.png?raw=true)
+![Bildschirmfoto](SCREENSHOT.png?raw=true)
 
 ## Wie man eine Erweiterung installiert
 
