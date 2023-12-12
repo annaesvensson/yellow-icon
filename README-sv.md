@@ -4,7 +4,7 @@
 
 Ikoner och symboler.
 
-![Skärmdump](SCREENSHOT.png?raw=true)
+![Skärmdump](SCREENSHOT.png)
 
 ## Hur man installerar ett tillägg
 
