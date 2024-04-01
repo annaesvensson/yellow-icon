@@ -2,7 +2,7 @@
 // Icon extension, https://github.com/annaesvensson/yellow-icon
 
 class YellowIcon {
-    const VERSION = "0.8.14";
+    const VERSION = "0.8.15";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -11,8 +11,8 @@ class YellowIcon {
         $this->yellow->system->setDefault("iconToolbarButtons", ":icon-star: :icon-heart: :icon-exclamation-triangle: :icon-tag: :icon-comment: :icon-file-o: :icon-file-text-o: :icon-file-image-o: :icon-phone: :icon-envelope-o: :icon-lightbulb-o: :icon-coffee: :icon-calendar: :icon-clock-o: :icon-map-marker: :icon-check:");
     }
 
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
+    // Handle page content element
+    public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if (($name=="icon" && $type=="inline") || $type=="symbol") {
             list($shortname, $style) = $this->yellow->toolbox->getTextArguments($text);
