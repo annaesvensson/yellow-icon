@@ -2,7 +2,7 @@
 // Icon extension, https://github.com/annaesvensson/yellow-icon
 
 class YellowIcon {
-    const VERSION = "0.9.1";
+    const VERSION = "0.9.2";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -31,8 +31,8 @@ class YellowIcon {
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header") {
-            $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$extensionLocation}icon.css\" />\n";
+            $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
+            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$assetLocation}icon.css\" />\n";
         }
         return $output;
     }
