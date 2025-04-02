@@ -16,7 +16,7 @@ Füge `:icon-asterisk:` oder `[icon icon-asterisk]` zum Text einer Seite hinzu. 
 
 ## Wie man ein Icon zu einer Layoutdatei hinzufügt
 
-Benutze das HTML=Format, zum Beispiel `<i class="icon icon-asterisk" aria-label="Asterisk"></i>`.
+Benutze das HTML-Format, zum Beispiel `<i class="icon icon-asterisk" aria-label="Asterisk"></i>`.
 
 ## Beispiele
 
