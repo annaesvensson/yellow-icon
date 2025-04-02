@@ -12,35 +12,47 @@ Icons and symbols.
 
 ## How to add an icon
 
-Add `:shortcode:` to the text of a page. Here's a [complete list of icons](https://fontawesome.com/icons).
+Add `:icon-asterisk:` or `[icon icon-asterisk]` to the text of a page. Here's a [complete list of icons](https://fontawesome.com/icons).
 
-It's also possible to create a `[icon]` shortcut or use HTML. You can add an optional style, for example `icon-2x`, `icon-3x`, `icon-4x` and `icon-5x`.
+## How to add an icon to a layout file
+
+Use the HTML format, for example `<i class="icon icon-asterisk" aria-label="Asterisk"></i>`.
 
 ## Examples
 
-Adding an icon:
+Content file with icons and symbols:
 
-    :icon-envelope-o:
-    :icon-github:
-    :icon-youtube:
+    ---
+    Title: Example page
+    ---
+    This is an example page with icons and symbols.
 
-Adding an icon with shortcut, different sizes:
+    :icon-asterisk: :icon-calendar: :icon-tag: 
+    :icon-rss-square: :icon-picture-o: :icon-envelope-o:
 
-    [icon icon-envelope-o]
-    [icon icon-github icon-2x]
-    [icon icon-youtube icon-3x]
+Adding an icon by name:
+
+    :icon-asterisk:
+    :icon-calendar:
+    :icon-tag:
+
+Adding an icon with shortcut:
+
+    [icon icon-asterisk]
+    [icon icon-calendar]
+    [icon icon-tag]
     
-Adding an icon with HTML, different sizes:
+Adding an icon with HTML:
 
-    <i class="icon icon-envelope-o" aria-label="Email"></i>
-    <i class="icon icon-github icon-2x" aria-label="GitHub"></i>
-    <i class="icon icon-youtube icon-3x" aria-label="Youtube"></i>
+    <i class="icon icon-asterisk" aria-label="Asterisk"></i>
+    <i class="icon icon-calendar" aria-label="Calendar"></i>
+    <i class="icon icon-tag" aria-label="Tag"></i>
 
 Website icons:
 
-    :icon-file-o:        :icon-file-text-o:   :icon-file-image-o:
-    :icon-file-audio-o:  :icon-comment-o:     :icon-cog:
-    :icon-shopping-cart: :icon-search:        :icon-bars:
+    :icon-file-o:         :icon-file-text-o:   :icon-file-image-o:
+    :icon-file-audio-o:   :icon-comment-o:     :icon-cog:
+    :icon-shopping-cart:  :icon-search:        :icon-bars:
 
 ## Settings
 

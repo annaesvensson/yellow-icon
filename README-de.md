@@ -12,35 +12,47 @@ Icons und Symbole.
 
 ## Wie man ein Icon hinzufügt
 
-Füge `:shortcode:` zum Text einer Seite hinzu. Hier ist eine [komplette Liste mit Icons](https://fontawesome.com/icons).
+Füge `:icon-asterisk:` oder `[icon icon-asterisk]` zum Text einer Seite hinzu. Hier ist eine [komplette Liste mit Icons](https://fontawesome.com/icons).
 
-Es ist auch möglich eine `[icon]`-Abkürzung zu erstellen oder HTML zu benutzen. Du kannst wahlweise einen Stil angeben, beispielsweise `icon-2x`, `icon-3x`, `icon-4x` und `icon-5x`.
+## Wie man ein Icon zu einer Layoutdatei hinzufügt
+
+Benutze das HTML=Format, zum Beispiel `<i class="icon icon-asterisk" aria-label="Asterisk"></i>`.
 
 ## Beispiele
 
-Icon hinzufügen:
+Inhaltsdatei mit Icons und Symbolen:
 
-    :icon-envelope-o:
-    :icon-github:
-    :icon-youtube:
+    ---
+    Title: Beispielseite
+    ---
+    Das ist eine Beispielseite mit Icons und Symbolen.
 
-Icon mit Abkürzung hinzufügen, unterschiedliche Größen:
+    :icon-asterisk: :icon-calendar: :icon-tag: 
+    :icon-rss-square: :icon-picture-o: :icon-envelope-o:
 
-    [icon icon-envelope-o]
-    [icon icon-github icon-2x]
-    [icon icon-youtube icon-3x]
-    
-Icon mit HTML hinzufügen, unterschiedliche Größen:
+Icon nach Namen hinzufügen:
 
-    <i class="icon icon-envelope-o" aria-label="Email"></i>
-    <i class="icon icon-github icon-2x" aria-label="GitHub"></i>
-    <i class="icon icon-youtube icon-3x" aria-label="Youtube"></i>
+    :icon-asterisk:
+    :icon-calendar:
+    :icon-tag:
+
+Icon mit Abkürzung hinzufügen:
+
+    [icon icon-asterisk]
+    [icon icon-calendar]
+    [icon icon-tag]
+
+Icon mit HTML hinzufügen:
+
+    <i class="icon icon-asterisk" aria-label="Asterisk"></i>
+    <i class="icon icon-calendar" aria-label="Calendar"></i>
+    <i class="icon icon-tag" aria-label="Tag"></i>
 
 Websiten-Icons:
 
-    :icon-file-o:        :icon-file-text-o:   :icon-file-image-o:
-    :icon-file-audio-o:  :icon-comment-o:     :icon-cog:
-    :icon-shopping-cart: :icon-search:        :icon-bars:
+    :icon-file-o:         :icon-file-text-o:   :icon-file-image-o:
+    :icon-file-audio-o:   :icon-comment-o:     :icon-cog:
+    :icon-shopping-cart:  :icon-search:        :icon-bars:
 
 ## Einstellungen
 

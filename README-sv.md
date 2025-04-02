@@ -12,35 +12,47 @@ Ikoner och symboler.
 
 ## Hur man lägger till en ikon
 
-Lägg till `:shortcode:` till texten på en sida. Här är en [fullständig lista med ikoner](https://fontawesome.com/icons).
+Lägg till `:icon-asterisk:` eller `[icon icon-asterisk]` till texten på en sida. Här är en [fullständig lista med ikoner](https://fontawesome.com/icons).
 
-Det är också möjligt att skapa en `[icon]` förkortning eller använda HTML. Du kan valfritt lägga till en stil, till exempel `icon-2x`, `icon-3x`, `icon-4x` och `icon-5x`.
+## Hur man lägger till en ikon i en layoutfil
+
+Använd HTML-format, till exempel `<i class="icon icon-asterisk" aria-label="Asterisk"></i>`.
 
 ## Exempel
 
-Lägga till ikon:
+Innehållsfil med ikoner och symboler:
 
-    :icon-envelope-o:
-    :icon-github:
-    :icon-youtube:
+    ---
+    Title: Exempelsida
+    ---
+    Detta är en exempelsida med ikoner och symboler.
 
-Lägga till ikon med förkortning, olika storlek:
+    :icon-asterisk: :icon-calendar: :icon-tag: 
+    :icon-rss-square: :icon-picture-o: :icon-envelope-o:
 
-    [icon icon-envelope-o]
-    [icon icon-github icon-2x]
-    [icon icon-youtube icon-3x]
+Lägga till ikon efter namn:
+
+    :icon-asterisk:
+    :icon-calendar:
+    :icon-tag:
+
+Lägga till ikon med förkortning:
+
+    [icon icon-asterisk]
+    [icon icon-calendar]
+    [icon icon-tag]
     
-Lägga till ikon med HTML, olika storlek:
+Lägga till ikon med HTML:
 
-    <i class="icon icon-envelope-o" aria-label="Email"></i>
-    <i class="icon icon-github icon-2x" aria-label="GitHub"></i>
-    <i class="icon icon-youtube icon-3x" aria-label="Youtube"></i>
+    <i class="icon icon-asterisk" aria-label="Asterisk"></i>
+    <i class="icon icon-calendar" aria-label="Calendar"></i>
+    <i class="icon icon-tag" aria-label="Tag"></i>
 
 Webbplatsikoner:
 
-    :icon-file-o:        :icon-file-text-o:   :icon-file-image-o:
-    :icon-file-audio-o:  :icon-comment-o:     :icon-cog:
-    :icon-shopping-cart: :icon-search:        :icon-bars:
+    :icon-file-o:         :icon-file-text-o:   :icon-file-image-o:
+    :icon-file-audio-o:   :icon-comment-o:     :icon-cog:
+    :icon-shopping-cart:  :icon-search:        :icon-bars:
 
 ## Inställningar
 
