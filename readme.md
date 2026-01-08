@@ -1,10 +1,10 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Icon 0.9.2
 
 Icons and symbols.
 
-![Screenshot](SCREENSHOT.png)
+![Screenshot](screenshot.png)
 
 ## How to install an extension
 
