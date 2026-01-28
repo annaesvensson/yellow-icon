@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Icon 0.9.2
 
-Ikoner och symboler.
+Ikoner och symboler. Utvecklad av Anna Svensson.
 
 ![Skärmdump](screenshot.png)
 
@@ -64,6 +62,4 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 Detta tillägg innehåller [Font Awesome 4.7.0](https://github.com/FortAwesome/Font-Awesome) av Dave Gandy. Tack för de vackra ikonerna.
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
