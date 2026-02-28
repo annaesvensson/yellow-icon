@@ -2,7 +2,7 @@
 
 Ikoner och symboler. Utvecklad av Anna Svensson.
 
-![Skärmdump](screenshot.png)
+<p align="center"><img src="screenshot.png" alt="Skärmdump" /></p>
 
 ## Hur man installerar ett tillägg
 
