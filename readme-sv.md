@@ -1,4 +1,4 @@
-# Icon 1.0.1
+# Icon 1.0.2
 
 Ikoner och symboler. Utvecklad av Anna Svensson.
 

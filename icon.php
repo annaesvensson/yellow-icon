@@ -2,7 +2,7 @@
 // Icon extension, https://github.com/annaesvensson/yellow-icon
 
 class YellowIcon {
-    const VERSION = "1.0.1";
+    const VERSION = "1.0.2";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -32,7 +32,7 @@ class YellowIcon {
         $output = null;
         if ($name=="header") {
             $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
-            $output = "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$assetLocation}icon.css\" />\n";
+            $output = "<link rel=\"stylesheet\" href=\"{$assetLocation}icon.css\" />\n";
         }
         return $output;
     }
